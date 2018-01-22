@@ -11,6 +11,6 @@ class App < Sinatra::Base
     @name = params[:name]
     @favorite_food = params[:favorite_food]
 
-    "#{@name}'s favorite food is #{f@avorite_food}.'"
+    "#{@name}'s favorite food is #{@favorite_food}.'"
   end
 end
